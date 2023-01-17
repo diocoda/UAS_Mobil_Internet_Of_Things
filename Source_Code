@@ -1,0 +1,38 @@
+(	* i c onne cued” ) ; ( " IP add re s : " ) ,
+(Ni * i . Coca IIP( )) ;
+
+(“Gagal mendeteksi	cnip“);
+(1) (
+
+
+npu . setAcceIerorreterRange(MPU6650 RANGE 16 G) ;
+npu . setGyro Range (M+U6056_RANGE_256_DE G ) ;
+ 
+
+
+npu . set Fi1terBanoidioth(MPU6050_BAND_21 HZ) ;
+( " Pe ndetek s i Ready " ) ;
+.'’','‘ fi Oka,' '{ 10c0) ;
+ie d . init ( ) ;
+ie d . bac klig ht ( ) ;
+
+
+'' 'iñiSll'Sdl *Vp° d3 d l 'ldc S2ñSOl
+double x,y,z ; double xg,yg,zg;
+
+void loop()
+
+npu6B50(); sendData_thiugsoeak(x,y,z,xg,yg,zg,t);
+
+void mpu6eS8( ) (
+s_event_t a, g,  tenp; cipu . get Event(&a, 8g, &tenp) ;
+
+ 
+
+''' '
+ 
+
+e e
+eleration. x;
+ 
+y ' %:%iiTleTd‹I)T:I:
